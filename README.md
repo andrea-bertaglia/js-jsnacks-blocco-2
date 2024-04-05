@@ -27,7 +27,9 @@
 
 ### Svolgimento
 
-- testo
+- chiedo i numeri all'utente per formare l'array
+- funzione: creo una stringa contente i numeri dell'array separati da una virgola
+- stampo il risultato in pagina
 
 ## Esercizio 4
 
