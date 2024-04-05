@@ -6,7 +6,9 @@
 
 ### Svolgimento
 
-- testo
+- funzione: chiedo all'utente di inserire i numeri che la funzione memorizza in un array finchè l'utente non scrive stop
+- funzione: conta gli elementi dell'array e restituisci il valore
+- stampa del risultato in pagina
 
 ## Esercizio 2
 
