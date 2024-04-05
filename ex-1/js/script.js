@@ -10,7 +10,10 @@ console.log('test link script');
 const userNum = parseInt(prompt("Digita un numero"))
 
 // genero gli array
-const array = randomArray(userNum);
+let array = [];
+for(i = 1; i <= userNum; i++) {
+    array.push(randomArray());
+}
 
 // stampo gli array
 console.log(array);
