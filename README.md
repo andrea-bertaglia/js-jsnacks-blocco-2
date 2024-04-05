@@ -16,7 +16,10 @@
 
 ### Svolgimento
 
-- testo
+- creo un array con una serie di numeri
+- chiedo all'utente di inserire il numero da cercare
+- funzione: cerco il numero nell'array e memorizzo l'indice oppure il valore "-1" se non è presente
+- stampo il risultato
 
 ## Esercizio 3
 
