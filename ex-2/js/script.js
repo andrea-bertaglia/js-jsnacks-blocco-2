@@ -16,6 +16,7 @@ const word2 = prompt('Dimmi la seconda parola');
 console.log(numWord(word1,word2));
 
 // 3. Output
+const result = numWord(word1,word2);
 if (result === "Sono di uguale lunghezza") {
     console.log("Le parole sono: ", word1, word2);
 } else {
