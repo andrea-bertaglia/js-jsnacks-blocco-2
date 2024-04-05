@@ -47,7 +47,9 @@
 
 ### Svolgimento
 
-- testo
+- creo due array (uno con valori e l'altro vuoto)
+- funzione: tramite un ciclo aggiungo al secondo array tutti gli elementi del primo eccetto il primo elemento
+- stampo in pagina
 
 ## Esercizio BONUS
 
