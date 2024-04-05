@@ -57,4 +57,7 @@
 
 ### Svolgimento
 
-- testo
+- creo l'array con gli elementi
+- chiedo all'utente di inserire l'elemento E
+- funzione: tramite un ciclo aggiungo al secondo array tutti gli elementi del primo eccetto con E in prima posizione
+- stampo in pagina
