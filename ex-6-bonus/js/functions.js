@@ -10,11 +10,10 @@ console.log('test link functions');
  */
 function putAsFirst(arrayOriginal, elementExtra) {
     let arrayCopy = [];
-    arrayCopy.push(elementExtra);
-    console.log(arrayCopy);
+    arrayCopy[0] = elementExtra;
 
-    for(let i = 0; i < arrayOriginal.length; ++i) {
-        arrayCopy.push(arrayOriginal[i]);
+    for(let i = 1; i <= arrayOriginal.length; ++i) {
+        arrayCopy[i] = arrayOriginal[i-1];
     }
     return arrayCopy;
 }

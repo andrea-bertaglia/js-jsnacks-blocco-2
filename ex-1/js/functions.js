@@ -7,14 +7,19 @@ console.log('test link functions');
  */
 function getNumbers() {
     let promptInput = "";
-    const arrayNum = [];
-
+    let arrayNum = [];
+    let y = 0;
+    
     while (promptInput !== "stop") {
-        promptInput = prompt('Inserisci un numero oppure scrivi STOP per interrompere');
-        if (promptInput.toLowerCase() === "stop") {
-            break;
-        } 
-        arrayNum.push(parseInt(promptInput));
+        
+    promptInput = prompt('Inserisci un numero oppure scrivi STOP per interrompere');
+
+    if (promptInput.toLowerCase() === "stop") {
+        break;
+    } else {
+        arrayNum[y] = parseInt(promptInput);
+        y++;
+    }
     }
     return arrayNum;
 }

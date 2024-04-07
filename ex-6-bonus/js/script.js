@@ -10,7 +10,7 @@ console.log('test link script');
 
 
 // 1. Input
-const listOriginal = [100, 26, 3, 4, 39]
+const listOriginal = [500, 76, 3, 244, 39]
 const userElem = prompt("Inserisci l'elemento da aggiungere")
 
 // 2. Logic
